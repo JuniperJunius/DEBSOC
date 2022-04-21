@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&family=Raleway:wght@900&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Ms+Madi&family=Raleway:wght@300&family=Roboto:wght@300&family=Square+Peg&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+.header{
+    display: flex;
+   
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+.menu li a{
+   text-decoration: none;
+   color: gray;
+   margin: 25px;
+   font-family: 'Roboto', sans-serif;
+  
+}
+.menu li{
+    list-style: none;
+}
+.debsoc{
+    width: 4.3%;
+    margin-left: 2vw;
+    font-family: 'Square Peg', cursive;
+    font-size: 2.5vw;
+ 
+   
+}
+.menu{
+    width: 80%;
+}
+.signin{
+    margin-right: 2vw;
+    border: none;
+    background-color: transparent;
+    color: white;
+    box-sizing: border-box;
+    font-size: 16px;
+    cursor: pointer;
+    background-color:#8c52ff ;
+    color: white;
+    width: 6vw;
+    height: 6vh;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2vw;
+   
+}
+.signin:hover{
+    opacity: 70%;
+}
+.intro{
+    background-color: #8c52ff;
+    color: white;
+    height: 70vh;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    
+    padding-left: 6vw
+}
+.debsoctwo{
+    font-size: 6vh;
+    font-family: 'Lato', sans-serif;
+    
+}
+.introtwo{
+    font-size: 2.5vh;
+    margin-top: 5vh;
+   
+}
+.signup{
+    color:#8c52ff ;
+    background-color: white;
+    width: 6vw;
+    height: 6vh;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5vh;
+    cursor: pointer;
+    font-size: 1vw;
+    font-size: 1.2vw;
+    padding: 6.8px;
+}
+.signup:hover{
+    background-color: #8c52ff;
+    color: white;
+    border: 2px white solid;
+}
+.sectiontwo{
+    display: flex;
+    flex-direction: column;
+}
+.one{
+    height: 15vw;
+    margin: 25px;
+    margin-left: 5vh;
+    border-radius: 10px;
+    margin-top: 25vh;
+}
+.btn{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 9vw 1.5vw 3vw 1.5vw;
+  
+    justify-content: center;
+}
+.img{
+    width:400px;
+    height: 300px;
+    padding: 2vh;
+}
+.secondbtn{
+    width: 5vw;
+    height: 5vh;
+    margin-top: 5vh;
+}
+.buttons{
+    display: flex;
+}
+.footer{
+    height: 34vh;
+    background-color: #8c52ff;
+}
+.menu li a:hover{
+    color: black;
+}
+.fa{
+    display: none;
+}
+.footer{
+    background-color: #8c52ff;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.1rem;
+    }
+    .foot{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 1vw;
+    
+    }
+    .three{
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    padding: 2vw;
+    flex-wrap: wrap;
+    text-align: center;
+    }
+    .contactus{
+    padding: 1vw;
+    margin: 20px;
+    }
+    .connect{
+    display: flex;
+    margin-top: 1vh;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    }
+    .last{
+    color: white;
+    text-align: center;
+    }
+    .divcu{
+    display: flex;
+    flex-direction: column;
+    padding: 1vw;
+    margin: 20px;
+    }
+    .email{
+    padding: 1vw;
+    margin: 20px;
+    }
+    .class{
+    margin-bottom: 1vh;
+    }
+.links{
+    color: white;
+}
+.pagetwo{
+    height: 100vh;
+    background: rgba(255, 255, 255, 0.76) ;
+    background-size: cover;
+    background-blend-mode: lighten;
+    background-repeat: no-repeat;
+    display: flex;
+    }
+    .aboutus{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    }
+    .au{
+    color: #041C32;
+    font-size: 3rem;
+    font-weight: 500;
+    padding-top: 10vh;
+    }
+    .subau{
+    height: auto;
+    color: #041C32;
+    }
+    .moreau{
+    text-decoration: none;
+    color: black;
+    }
+    .imgo{
+    width: 55vw;
+    border: #041C32 solid 10px;
+    }
+    .pagethree{
+       background-color: #8c52ff;
+        background-size: cover;
+        background-blend-mode: lighten;
+        background-repeat: no-repeat;
+        height: 100vh;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        }
+        .li{
+        
+       
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 60%;
+        margin-top: 19vh;
+        width: 50vmin;
+        border-radius: 16px;
+        padding: 4px;
+        min-width: 300px; 
+        }
+        .color{
+        color: white;
+        font-family: 'Raleway', sans-serif;
+        }
+        .login{
+        font-size: 30px;
+        color: white;
+        padding-bottom: 4vh; }
+        .box{
+        width: 17vw;
+        margin-top: 2vh;
+        height: 5vh;
+        border-radius: 8px;
+        border: none;
+        }
+        .textbox{
+        padding-left: 10px;
+        width: 25vw;
+        max-width: 250px;
+        }
+        .showpass{
+        color: white;
+        padding-top: 2vh; 
+        }
+        .example{
+        margin-top: 5vh;
+        }
+        .submit{
+        color: white;
+        background-color: transparent;
+        border: 2px white solid;
+        font-size: 2vw;
+        font-family: 'Raleway', sans-serif;
+        width: 18vw;
+        margin-top: 8vh;
+        height: 5vh;
+        border-radius: 8px;
+        padding: 2px;
+        min-width: 130px;
+        font-size: 1vw;
+        }
+        .submit:hover{
+        background-color: white;
+        color: #041C32;
+        border: 2px solid white;
+        transition: all 0.5s;
+        cursor: pointer;
+        }
+        @media screen and (max-width:779px) {
+        .pagethree{ 
+        background: rgba(0, 0, 0, 0.6) url("../img/bg.jpg");
+        background-size: cover;
+        background-blend-mode: darken;
+        background-repeat: no-repeat;
+        height: 100vh;
+        }
+        .login{
+        font-size: 2rem;
+        }
+        .li{
+        background: none;
+        border: none;
+        }
+        .submit{
+        background-color: transparent ;
+        width: 35vw;
+        font-size: 1rem;
+        margin-top: 10vh;
+        }
+        .textbox{
+        width: 40vw;
+        }
+        }
+    
+    @media screen and (max-width:799vw) {
+    .pagetwo{
+    flex-wrap: wrap;
+    }
+    }
+   
+@media only screen and (max-width:900px) { 
+    .menu li a {
+        display: none;
+    }
+    .fa{
+        display: inline;
+        margin-left: 2vw;
+    }
+    .debsoc{
+        margin-left: 34vw;
+        position: fixed;
+        font-size: 6vh;
+    }
+    .signin {
+        width: 15vw;
+        font-size: 3.5vw;
+    }
+    .signup{
+        width: 15vw;
+        font-size: 3.5vw;
+    }
+}
