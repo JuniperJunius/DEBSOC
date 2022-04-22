@@ -14,16 +14,27 @@
 
 <body>
     <div class="header">
-        <i class="fa fa-bars"></i>
+        <div class="navbar">
+            <div class="hamburger" onclick="onhamburgerclick()">
+                <div class="fas">
+                    <span class="bar1 barbar">
+                    </span>
+                    <span class="bar2 barbar">
+                    </span>
+                    <span class="bar3 barbar">
+                    </span>
+                </div>
+            </div>
+        </div>
         <div class="debsoc">DEBSOC</div>
 
         <div class="menu">
             <li>
                 <ul>
                     <a href="">Home</a>
-                    <a href="">About Us</a>
-                    <a href="">Join The Club</a>
-                    <a href="">Contact Us</a>
+                    <a href="index.html#aboutus">About Us</a>
+                    <a href="index.html#joinus">Join Us</a>
+                    <a href="index.html#contactus">Contact Us</a>
                 </ul>
             </li>
         </div>
@@ -61,39 +72,32 @@
         <div class="li">
             <div class=" login">Join Us
                 <br>
-               
+
             </div>
             <div class="form-example">
-                <input class="box textbox username" type="email" name="name" id="name" placeholder="Your Name"
+                <input class="box textbox username" type="email" name="name" id="name" placeholder="Name" required>
+            </div>
+            <div class="form-example">
+                <input class="box textbox username" type="email" name="name" id="name" placeholder="Department and Year"
                     required>
             </div>
             <div class="form-example">
-                <input class="box textbox username" type="email" name="name" id="name" placeholder="Course and Branch"
+                <input class="box textbox username" type="email" name="name" id="name" placeholder="Group" required>
+            </div>
+            <div class="form-example">
+                <input class="box textbox username" type="email" name="name" id="name" placeholder="University ID"
                     required>
             </div>
             <div class="form-example">
-                <input class="box textbox username" type="email" name="name" id="name" placeholder="Year and Semester"
-                    required>
+                <input class="box textbox username" type="email" name="name" id="name" placeholder="Email" required>
             </div>
             <div class="form-example">
-                <input class="box textbox username" type="email" name="name" id="name" placeholder="Group Number"
+                <input class="box textbox password" type="password" name="email" id="email" placeholder="Password"
                     required>
             </div>
+
             <div class="form-example">
-                <input class="box textbox username" type="email" name="name" id="name" placeholder="Roll Number"
-                    required>
-            </div>
-            <div class="form-example">
-                <input class="box textbox username" type="email" name="name" id="name" placeholder="Enter your email"
-                    required>
-            </div>
-            <div class="form-example">
-                <input class="box textbox password" type="password" name="email" id="email" placeholder="Enter password"
-                    required>
-            </div>
-            
-            <div class="form-example">
-                <input class="submit" type="submit" onclick="onloginclick()" value="Submit">
+                <input class="submit" type="submit" onclick="onloginclick()" value="Join">
             </div>
         </div>
     </div>
