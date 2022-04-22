@@ -7,13 +7,21 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
 }
+.navbar{
+    position: fixed;
+    overflow: hidden;
+}
 .header{
     display: flex;
-   
+    position: fixed;
+    overflow: hidden;
     justify-content: space-between;
     align-items: center;
     height: 10vh;
+    background-color: white;
+    width: 100%;
 }
+
 .menu li a{
    text-decoration: none;
    color: gray;
@@ -126,31 +134,25 @@
 .buttons{
     display: flex;
 }
-.footer{
-    height: 34vh;
-    background-color: #8c52ff;
-}
+
 .menu li a:hover{
     color: black;
 }
-.fa{
-    display: none;
-}
+
 .footer{
     background-color: #8c52ff;
     width: 100%;
     display: flex;
     flex-direction: column;
     font-size: 1.1rem;
-    }
-    .foot{
+}
+.foot{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     flex-direction: column;
     padding: 1vw;
-    
-    }
+}
     .three{
     display: flex;
     color: white;
@@ -197,7 +199,7 @@
     background-repeat: no-repeat;
     display: flex;
     }
-    .aboutus{
+.aboutus{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -205,47 +207,45 @@
     align-items: center;
     flex-direction: column;
     }
-    .au{
+.au{
     color: #041C32;
     font-size: 3rem;
     font-weight: 500;
     padding-top: 10vh;
     }
-    .subau{
+.subau{
     height: auto;
     color: #041C32;
     }
-    .moreau{
+.moreau{
     text-decoration: none;
     color: black;
     }
-    .imgo{
+.imgo{
     width: 55vw;
     border: #041C32 solid 10px;
     }
-    .pagethree{
-       background-color: #8c52ff;
-        background-size: cover;
-        background-blend-mode: lighten;
-        background-repeat: no-repeat;
-        height: 100vh;
-        display: flex;
-        text-align: center;
-        justify-content: center;
-        }
-        .li{
-        
-       
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        height: 60%;
-        margin-top: 19vh;
-        width: 50vmin;
-        border-radius: 16px;
-        padding: 4px;
-        min-width: 300px; 
-        }
+.pagethree{
+    background-color: #8c52ff;
+    background-size: cover;
+    background-blend-mode: lighten;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    }
+.li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 60%;
+    margin-top: 19vh;
+    width: 50vmin;
+    border-radius: 16px;
+    padding: 4px;
+    min-width: 300px; 
+    }
         .color{
         color: white;
         font-family: 'Raleway', sans-serif;
@@ -294,9 +294,63 @@
         transition: all 0.5s;
         cursor: pointer;
         }
+        .hamburger{
+            display:none;
+            } 
+            .bar{
+            height: 1vh;
+            width: 6vw;
+            }
+            .fas{
+            display: flex;
+            align-items: flex-end;
+            flex-direction: column;
+            } 
+            .barbar{
+            display: block;
+            height: 3px;
+            margin: 5px auto;
+            -webkit-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+            background-color: black;
+            border-radius: 10%; 
+            }
+            .bar1{
+            margin-top: 2px;
+            width: 30px;
+            transition: all 0.5s ;
+            margin-left: 10px;
+            }
+            .bar2{
+            margin-top: 2px;
+            width: 30px;
+            transition: all 0.5s ;
+            margin-left: 10px;
+            }
+            .bar3{
+            margin-top: 2px;
+            width: 30px;
+            transition: all 0.5s ;
+            margin-top: 2px;
+            
+            transition: all 0.5s;
+            margin-left: 10px;
+            }
+            .barone{
+            width: 35px;
+            margin-left:39px ;
+            }
+            .bartwo{
+            width: 35px;
+            
+            }
+            .barthree{
+            width: 35px;
+            margin-left: 19px;
+            }
         @media screen and (max-width:779px) {
         .pagethree{ 
-        background: rgba(0, 0, 0, 0.6) url("../img/bg.jpg");
+        
         background-size: cover;
         background-blend-mode: darken;
         background-repeat: no-repeat;
@@ -330,10 +384,7 @@
     .menu li a {
         display: none;
     }
-    .fa{
-        display: inline;
-        margin-left: 2vw;
-    }
+    
     .debsoc{
         margin-left: 34vw;
         position: fixed;
@@ -347,4 +398,8 @@
         width: 15vw;
         font-size: 3.5vw;
     }
+    .hamburger{
+        display: block;
+    }
+    
 }
