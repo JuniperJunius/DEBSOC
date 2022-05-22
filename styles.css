@@ -1,395 +1,165 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&family=Raleway:wght@900&family=Roboto:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Ms+Madi&family=Raleway:wght@300&family=Roboto:wght@300&family=Square+Peg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 *{
-    scroll-behavior: smooth;
-    padding: 0;
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 900;
-}
-.navbar{
-    position: fixed;
-    overflow: hidden;
-}
-.header{
-    display: flex;
-    position: fixed;
-    overflow: hidden;
-    justify-content: space-between;
-    align-items: center;
-    height: 10vh;
-    background-color: white;
-    width: 100%;
-}
-.menu li a{
-   text-decoration: none;
-   color: gray;
-   margin: 25px;
-   font-family: 'Roboto', sans-serif;
-}
-.menu li{
-    list-style: none;
-}
-.debsoc{
-    width: 4.3%;
-    margin-left: 2vw;
-    font-family: 'Square Peg', cursive;
-    font-size: 2.5vw;
-}
-.menu{
-    width: 80%;
-}
-.signin{
-    margin-right: 2vw;
-    border: none;
-    background-color: transparent;
-    color: white;
-    box-sizing: border-box;
-    font-size: 16px;
-    cursor: pointer;
-    background-color:#8c52ff ;
-    color: white;
-    width: 6vw;
-    height: 6vh;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1.2vw;
-}
-.signin:hover{
-    opacity: 70%;
-}
-.intro{
-    background-color: #8c52ff;
-    color: white;
-    height: 70vh;
-    align-content: center;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    padding-left: 6vw
-}
-.debsoctwo{
-    font-size: 6vh;
-    font-family: 'Lato', sans-serif;  
-}
-.introtwo{
-    font-size: 2.5vh;
-    margin-top: 5vh;  
-}
-.signup{
-    color:#8c52ff ;
-    background-color: white;
-    width: 6vw;
-    height: 6vh;
-    border: none;
-    border-radius: 5px;
-    margin-top: 5vh;
-    cursor: pointer;
-    font-size: 1vw;
-    font-size: 1.2vw;
-    padding: 6.8px;
-}
-.signup:hover{
-    background-color: #8c52ff;
-    color: white;
-    border: 2px white solid;
-}
-.sectiontwo{
-    display: flex;
-    flex-direction: column;
-}
-.one{
-    height: 15vw;
-    margin: 25px;
-    margin-left: 5vh;
-    border-radius: 10px;
-    margin-top: 25vh;
-}
-.btn{
-    display: flex;
-    flex-wrap: wrap;
-    padding: 9vw 1.5vw 3vw 1.5vw;
-  
-    justify-content: center;
-}
-.img{
-    width:400px;
-    height: 300px;
-    padding: 2vh;
-}
-.secondbtn{
-    width: 5vw;
-    height: 5vh;
-    margin-top: 5vh;
-}
-.buttons{
-    display: flex;
+  font-family: 'IBM Plex Sans', sans-serif;
 }
 
-.menu li a:hover{
-    color: black;
+.heading{
+  color: white;
+  text-align: center;
 }
-.footer{
-    background-color: #8c52ff;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    font-size: 1.1rem;
+.curriculam{
+  color: #8080FF;
 }
-.foot{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    flex-direction: column;
-    padding: 1vw;
+.card-text{
+  background-color:#3F3F46 ;
+ 
 }
-    .three{
+
+.ds{
+  color: white;
+}
+.subdiv{
+  display: flex;
+  justify-content: space-evenly;
+ 
+}
+.nav-item{
     display: flex;
+    flex-direction: row;
     color: white;
-    justify-content: space-evenly;
-    padding: 2vw;
-    flex-wrap: wrap;
-    text-align: center;
-}
-    .contactus{
-    padding: 1vw;
-    margin: 20px;
-}
-    .connect{
-    display: flex;
-    margin-top: 1vh;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-    .last{
-    color: white;
-    text-align: center;
-}
-    .divcu{
-    display: flex;
-    flex-direction: column;
-    padding: 1vw;
-    margin: 20px;
-}
-    .email{
-    padding: 1vw;
-    margin: 20px;
-}
-    .class{
-    margin-bottom: 1vh;
-}
-.links{
-    color: white;
-}
-.pagetwo{
-    height: 100vh;
-    background: rgba(255, 255, 255, 0.76) ;
-    background-size: cover;
-    background-blend-mode: lighten;
-    background-repeat: no-repeat;
-    display: flex;
-}
-.aboutus{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    text-align: center;
-    align-items: center;
-    flex-direction: column;
-}
-.au{
-    color: #041C32;
-    font-size: 3rem;
     font-weight: 500;
-    padding-top: 10vh;
 }
-.subau{
-    height: auto;
-    color: #041C32;
-}
-.moreau{
-    text-decoration: none;
+.nav-link:hover{
     color: black;
+    border-radius: 5px;
+    background: rgba(59, 57, 57, 0.8);
 }
-.imgo{
-    width: 55vw;
-    border: #041C32 solid 10px;
+.navbar{
+  height: 10vh;
+  backdrop-filter: blur(8px);
+  position: fixed;
+  background-color:  rgba(0,0,0,0.8);
 }
-.pagethree{
-    background-color: #8c52ff;
-    background-size: cover;
-    background-blend-mode: lighten;
-    background-repeat: no-repeat;
-    height: 100vh;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-}
-.li{
+.sectionone{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 60%;
-    margin-top: 19vh;
-    width: 50vmin;
-    border-radius: 16px;
-    padding: 4px;
-    min-width: 300px; 
-}
-.color{
-    color: white;
-    font-family: 'Raleway', sans-serif;
-}
-.login{
-    font-size: 30px;
-    color: white;
-    padding-bottom: 4vh; 
-}
-.box{
-    width: 17vw;
-    margin-top: 2vh;
-    height: 5vh;
-    border-radius: 8px;
-    border: none;
-}
-.textbox{
-    padding-left: 10px;
-    width: 25vw;
-    max-width: 250px;
-}
-.showpass{
-    color: white;
-    padding-top: 2vh; 
-}
-.example{
-    margin-top: 5vh;
-}
-.submit{
-    color: white;
-    background-color: transparent;
-    border: 2px white solid;
-    font-size: 2vw;
-    font-family: 'Raleway', sans-serif;
-    width: 18vw;
-    margin-top: 8vh;
-    height: 5vh;
-    border-radius: 8px;
-    padding: 2px;
-    min-width: 130px;
-    font-size: 1vw;
-}
-.submit:hover{
-    background-color: white;
-    color: #041C32;
-    border: 2px solid white;
-    transition: all 0.5s;
-    cursor: pointer;
-}
-.hamburger{
-    display:none;
-} 
-.bar{
-    height: 1vh;
-    width: 6vw;
-}
-.fas{
-    display: flex;
-    align-items: flex-end;
-    flex-direction: column;
-} 
-.barbar{
-    display: block;
-    height: 3px;
-    margin: 5px auto;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
+    align-items: center;
+   padding-top: 15vh;
     background-color: black;
-    border-radius: 10%; 
+    padding-bottom: 5vh;
 }
-.bar1{
-    margin-top: 2px;
-    width: 30px;
-    transition: all 0.5s ;
-    margin-left: 10px;
+.text{
+  color: #8080FF;
 }
-.bar2{
-    margin-top: 2px;
-    width: 30px;
-    transition: all 0.5s ;
-    margin-left: 10px;
+.arrow-container {
+  width: 25px;
+  /* cubic-bezier-easing = sine / mehr Beispiele: https://easings.net/ */
+  animation: bounce 1600ms infinite cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  cursor: pointer;
+  height: 20px;
 }
-.bar3{
-    margin-top: 2px;
-    width: 30px;
-    transition: all 0.5s ;
-    margin-top: 2px;
-    transition: all 0.5s;
-    margin-left: 10px;
+
+.arrow-down {
+  height: 6px;
+  background: black;
+  transform: rotate(45deg);
+  transform-origin: 0% 0%;
+  border-radius: 1px;
+  padding-top: 15vh;
 }
-.barone{
-    width: 35px;
-    margin-left:39px ;
+.rightdiv{
+  background-color: #3F3F46;
 }
-.bartwo{
-    width: 35px;
+.arrow-down:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  left: 100%;
+  border-radius: 1px;
+  background: black;
+  transform: rotate(-90deg);
+  transform-origin: 0% 100%;
 }
-.barthree{
-    width: 35px;
-    margin-left: 19px;
+.cards{
+ padding: 0 7vh;
 }
-.signinpage{
-    display: flex;
+.card-two{
+  padding-top: 5vh;
 }
-        
-@media screen and (max-width:779px) {
-.pagethree{ 
-    background-size: cover;
-    background-blend-mode: darken;
-    background-repeat: no-repeat;
-    height: 100vh;
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 24vh;
+  justify-content: space-around;
+  background-color: #27272A;
+  
 }
-.login{
-    font-size: 2rem;
+.divone{
+  color: white;
+  padding: 10px;
+  text-align: center;
 }
-.li{
-    background: none;
-    border: none;
+.signin:hover{
+  background-color:  rgba(255,255,255,0.1);
 }
-.submit{
-    background-color: transparent ;
-    width: 35vw;
-    font-size: 1rem;
-    margin-top: 10vh;
+.divtwo{
+  color: white;
 }
-.textbox{
-    width: 40vw;
+.divthree{
+  color: white;
 }
-.pagetwo{
-    flex-wrap: wrap;
+
+.navbar-brand{
+  padding-left: 5vw;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 800;
 }
+.nav-item a{
+ padding-left: 2vw;
+
 }
-@media only screen and (max-width:900px) { 
-.menu li a {
-        display: none;
-    }
-    
-.debsoc{
-        margin-left: 34vw;
-        position: fixed;
-        font-size: 6vh;
-    }
-.signin {
-        width: 15vw;
-        font-size: 3.5vw;
-    }
-.signup{
-        width: 15vw;
-        font-size: 3.5vw;
-    }
-.hamburger{
-        display: block;
-    }
-    
+.btn{
+  width: 7vw;
+  height: 6vh;
+  padding-right: 5vw;
+}
+.cone{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-evenly;
+  
+  
+}
+.eachcard{
+  border: 1px black;
+  margin-top: 10vh;
+  border-radius: 20%;
+}
+
+.card-one{
+  background: #27272A;
+  margin-top: 0px;
+}
+@keyframes bounce {
+50% {
+    transform: translateY(-15px);
+  }
+}
+.cardimg{
+  width: 10%;
+}
+.rightdiv{
+  padding: 15px;
+}
+.fa-brands{
+  color: white;
+  margin-right: 10px;
+  font-size: 25px;
 }
